@@ -9,6 +9,7 @@ void main() {
   int pilihan = int.parse(stdin.readLineSync()!);
 
   switch (pilihan) {
+    
     case 1:
       stdout.write("Masukkan angka: ");
       int n = int.parse(stdin.readLineSync()!);
